@@ -91,7 +91,10 @@ public class XGBDDemo : ModuleRules
 &emsp;&emsp;Andriod:Only version 5.3 has been tested.<br>
 ## Other
 &emsp;&emsp;This plugin does not contain any Baidu's files(\*.h,\*.cpp,\*.lib,......)<br><br>
-&emsp;&emsp;"ThirdParty/XGBaseModule" is just used to encrypt Information.It is "OpenSSL",which is provided by Unreal Engine source.This plugin does not contain any code  from outside Unreal Engine.<br><br>
+&emsp;&emsp;"ThirdParty/XGBaseModule" is just used to encrypt Information.It is "OpenSSL",which is the Library Statically linked.Any data will not send to the "OpenSSL" creator.(version:1.1.1t)<br><br>
+&emsp;&emsp;[OpenSSL Website](https://www.openssl.org/)<br>
+&emsp;&emsp;[OpenSSL Licesne](https://www.openssl.org/source/license.html)<br>
+<br>
 &emsp;&emsp;This plugin does not contain AI code or AI Model code.<br>
 
 &emsp;&emsp;This plugin will not send any data to the plugin author.<br>
